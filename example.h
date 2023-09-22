@@ -1,5 +1,5 @@
 #include <bitcoin/random.cpp>
-#inclued <bitcoin/private.cpp>
+#include <bitcoin/private.cpp>
 
 // Function to import a private key from a Bitcoin wallet
 bool importPrivateKey(const std::string& walletFilePath, const std::string& password, bc::ec_secret& private_key) {
