@@ -1,2 +1,3 @@
-# tribe-hash
+# Tribe Hash
+
 Message hash with signatures
