@@ -50,6 +50,6 @@ const testnet = {
     const hexTest = Buffer.from(test).toString('hex')
     
     // How can I verify that the address generated pubkey is based off of the tprv?
-    const isValid = schnorr.verify(hexTest, message, toXOnly(pubFromAddress));
+    const isValid = schnorr.verify(hexTest, message, result.tapInternalKey);
     console.log("Is the pub key valid?", isValid); // false 
   })();
