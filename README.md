@@ -4,7 +4,7 @@ Message hash with signatures
 
 ## What is?
 
-This is a simple Prooof of Concept allow communicate signatures and message hash doing happen multisig on Tribe product.
+This is a simple Proof of Concept allow communicate signatures and message hash doing happen multisig on Tribe product.
 
 ## Status
 
